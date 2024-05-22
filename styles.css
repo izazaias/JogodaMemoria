@@ -1,0 +1,42 @@
+.memory-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-color: rgb(224, 147, 3);
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    margin-top: 100px;
+    padding: 200px 200px;
+    font-size: 16px;
+    background-color: #00ff62;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.start-screen {
+    text-align: center; /* Alinha o conteúdo ao centro */
+}
+
+.start-screen h1 {
+    margin-bottom: 200px; /* Adiciona espaço abaixo do título */
+}
+.start-screen button {
+    padding: 50px 200px; /* Reduz o preenchimento do botão */
+    font-size: 14px; /* Reduz o tamanho da fonte do botão */
+}

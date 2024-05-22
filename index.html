@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Jogo da Memória</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="start-screen">
+        <button onclick="startGame()">Iniciar Jogo</button>
+    </div>
+    <div class="memory-game" style="display: none;">
+        <div class="board" id="board"></div>
+        <button onclick="restartGame()">Reiniciar</button>
+    </div>
+    <div class="end-screen" style="display: none;">
+        <h1>Parabéns!</h1>
+        <p>Você encontrou todos os pares!</p>
+        <button onclick="restartGame()">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
