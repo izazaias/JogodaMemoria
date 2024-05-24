@@ -11,18 +11,26 @@
 <body>
   <div class="game-container">
     <div class="score-board">Tentativas: <span id="attempt-count">0</span></div>
+          <!-- Contador de tentativas, inicia em 0 -->
     <div class="memory-game">
       <!-- Cartas do jogo -->
     </div>
     <button id="restart-btn">Reiniciar</button>
+        <!-- Botão para reiniciar o jogo -->
   </div>
   <div id="modal" class="modal">
+        <!-- Modal que será exibido ao finalizar o jogo -->
     <div class="modal-content">
-      <span class="close-btn">&times;</span>
+            <!-- Conteúdo do modal -->
+      <span class="close-btn">x</span>
+            <!-- Botão para fechar o modal, representado pelo símbolo "&times;" (um "T") -->
       <h2>Parabéns!</h2>
       <p>Tempo: <span id="time-taken"></span></p>
-      <p>Tentativas: <span id="final-attempts"></span></p>
+            <!-- Parágrafo para exibir o tempo gasto no jogo, preenchido dinamicamente -->
+      <p>Tentativas: <span id="final-attempts"></span></p>     
+       <!-- Parágrafo para exibir o número final de tentativas, preenchido dinamicamente -->
       <p>Recorde: <span id="best-record"></span></p>
+            <!-- Parágrafo para exibir o recorde de tempo, preenchido dinamicamente -->
     </div>
   </div>
   <script src="script.js"></script>
